@@ -168,7 +168,7 @@ body
           height: 250px;
           background-color: grey;
           border-radius: 16px; 
-          background: url('imgs/logo.jpg');  
+          background: url('logo.jpg');  
           background-size: cover;
 }
 
@@ -272,7 +272,7 @@ body
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url('/imgs/logo.jpg');
+          background: url('logo.jpg');
           background-size: cover;
           background-repeat: no-repeat;
           flex-direction: column;
