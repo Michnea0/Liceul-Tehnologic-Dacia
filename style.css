@@ -203,6 +203,18 @@ body
           letter-spacing: 1.5px;
 }
 
+.Big-title-c 
+{
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-size: 27px;
+          letter-spacing: 1.5px;
+}
+
 .text-area
 {
           width: 90%;
@@ -214,7 +226,10 @@ body
           text-align: center;
           color: rgb(100, 100, 100);
           font-size: 16px;
+          word-break: normal;
+          hyphens: auto;
 }
+
 
 .space
 {
@@ -272,7 +287,6 @@ body
           display: flex;
           justify-content: center;
           align-items: center;
-          background: url('logo.jpg');
           background-size: cover;
           background-repeat: no-repeat;
           flex-direction: column;
@@ -285,7 +299,7 @@ body
           background-color: white;
           border-top: 16px;
           margin-top: 250px;
-          border-radius: 24px 24px 0 0;
+          border-radius: 26px 26px 0 0;
           display: flex;
           justify-content: start;
           align-items: center;
@@ -930,6 +944,12 @@ input
           cursor: pointer;
 }
 
+.see 
+{
+          width: 100%;
+          height: auto;
+}
+
 /* search */
 
 .orar-zone 
@@ -973,9 +993,107 @@ input
           background-color: grey;
 }
 
+.news-post
+{
+          width: 300px;
+          height: 200px;
+          background-color: rgb(219, 219, 219);
+          border-radius: 16px;
+          cursor: pointer;
+          display: flex;
+          justify-content: end;
+          flex-direction: column;
+          align-items: start;
+          padding: 15px;
+          gap: 10px;
+          text-decoration: none;
+          color: black;
+}
+
+.date-title 
+{
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 16px;
+          color: grey;
+}
+
+.date-n 
+{
+          color: rgb(202, 202, 202);
+          font-size: 12px;
+          background-color: rgba(0, 0, 0, 0.541);
+          border-radius: 16px;
+          padding: 5px 10px;
+}
+
+.title-n 
+{
+          font-size: 20px;
+          font-weight: 500;
+          color: white;
+}
+
+.see-zone 
+{
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+.see 
+{
+          width: 600px;
+          height: auto;
+          border: 1px solid grey;
+          border-radius: 24px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          padding: 15px;
+}
+
+.title-see 
+{
+          padding: 10px;
+          font-size: 20px;
+          font-weight: 400;
+          color: grey;
+}
+
+.see-list 
+{
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 10px;
+}
+
+.see-list a 
+{
+          padding: 5px 10px;
+          text-decoration: none;
+          color: rgb(112, 112, 255);
+}
+
 @media screen and (max-width: 600px) {
 
           .burse 
+          {
+                    width: 90%;
+          }
+
+          .see 
           {
                     width: 90%;
           }
@@ -1017,9 +1135,10 @@ input
           {
                     width: 90%;
                     max-width: 500px;
-                    height: 350px;
+                    height: 200px;
                     border-radius: 14px;
           }
+
 
           /* contact */
 
@@ -1048,6 +1167,11 @@ input
                     height: auto;
                     flex-direction: column;
                     border-radius: 50px;
+          }
+
+          .news-post
+          {
+                    width: 90%;
           }
 
           .social ion-icon 
