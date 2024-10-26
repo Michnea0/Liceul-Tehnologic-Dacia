@@ -26,3 +26,13 @@ let SelectorA,SelectorB,zoneONE,zoneTWO
           })
 
           
+let msgUser,btnCloseMSG
+           
+      msgUser = document.querySelector(".msg-pop")
+      btnCloseMSG = document.querySelector(".close-msg")
+
+      btnCloseMSG.addEventListener("click", ()=>
+      {
+                  msgUser.style.display = "none"
+      })
+  
