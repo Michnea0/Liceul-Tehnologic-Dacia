@@ -26,7 +26,8 @@ let SelectorA,SelectorB,zoneONE,zoneTWO
           })
 
           
-let msgUser,btnCloseMSG
+let msgUser,btnCloseMSG,closed 
+      
            
       msgUser = document.querySelector(".msg-pop")
       btnCloseMSG = document.querySelector(".close-msg")
@@ -35,4 +36,6 @@ let msgUser,btnCloseMSG
       {
                   msgUser.style.display = "none"
       })
+
+
   
