@@ -494,7 +494,10 @@ body
           flex-direction: column;
           padding: 15px;
           cursor: pointer;
+          text-decoration: none;
+          color: black;
 }
+
 
 .categ
 {
@@ -695,6 +698,19 @@ input
           display: flex;
           justify-content: center;
           align-items: center;
+          font-size: 24px;
+          padding: 20px;
+          font-weight: 400;
+}
+
+.title-left-c
+{
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
           font-size: 24px;
           padding: 20px;
           font-weight: 400;
@@ -1023,7 +1039,7 @@ input
 
 .news-post
 {
-          width: 300px;
+          width: 400px;
           height: 200px;
           background-color: rgb(219, 219, 219);
           border-radius: 16px;
